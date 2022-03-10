@@ -1,0 +1,72 @@
+:root {
+  /* Headers */
+  --header-background: #313c4e;
+  --header-textColor: #ffffff;
+  --header-role-color: #439399;
+
+  /* Body */
+  --body-role-color: #439399;
+  --body-desc-color: #000000;
+  --body-circle-color: #313c4e;
+}
+
+.main {
+  background-image: url(./0_e131wyMA62ZCN188.png);
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  margin: 25%;
+  height: 95vh;
+  background-color: var(--header-textColor);
+  box-shadow: 6px 6px 25px 10px black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--header-background);
+  color: var(--header-textColor);
+  margin: 0;
+  padding: 1% 5%;
+  border-radius: 5px;
+}
+
+.profilePic {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  border: 2px solid var(--header-role-color);
+  align-self: center;
+}
+
+.desc > h5 {
+  color: var(--header-role-color);
+}
+
+.firstSec {
+  padding: 3% 6%;
+}
+
+.work-expercience {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.firstSec > section > h4 {
+  color: var(--header-role-color);
+}
+
+.rule {
+  margin-top: 0;
+  color: var(--header-role-color);
+  width: 22ch;
+}
