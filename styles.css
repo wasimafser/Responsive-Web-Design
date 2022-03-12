@@ -139,3 +139,24 @@ ul li {
   border-radius: 50%;
   margin: 4px auto;
 }
+
+.skills-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skill {
+  font-size: smaller;
+  font-weight: bolder;
+}
+
+.scale {
+  display: flex;
+  flex-direction: column;
+  gap: 1.28rem;
+}
+
+progress{
+  color:var(--body-role-color)
+}
